@@ -58,5 +58,17 @@ public class WhichCountriesExport {
 		System.out.println(numOfCountries);
 
 	}
+	
+	public static void main(String[] args) {
+		WhichCountriesExport e=new WhichCountriesExport();
+		FileResource fr = new FileResource();
+		CSVParser parser = fr.getCSVParser();
+     	e.tester();
+     	e.bigExporters(parser, "100");
+     	e.numberOfExporters(parser, "cocoa");
+		
+		
+		
+	}
 
 }

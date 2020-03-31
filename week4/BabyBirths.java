@@ -184,4 +184,12 @@ public class BabyBirths {
 		FileResource fr = new FileResource();
 		totalBirths(fr);
 	}
+	
+	public static void main(String[] args) {
+		BabyBirths b = new BabyBirths();
+		b.testTotalBirths();
+		b.getAverageRank("Emma", "F");
+		b.yearOfHighestRank("Emma", "F");
+	}
+	
 }

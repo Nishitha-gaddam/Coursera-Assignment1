@@ -191,4 +191,16 @@ public class CSVMinimumTemperature {
 			System.out.println("No Temperature was found");
 		}
 	}
+	
+	public static void main(String[] args) { 
+		CSVMinimumTemperature  c =new CSVMinimumTemperature();
+		c.testAverageTemperatureInFile();
+		c.testAverageTemperatureWithHighHumidityInFile();
+		c.testColdestHourInFile();
+		c.testFileWithColdestTemperature();
+		c.testLowestHumidityInFile();
+		c.testLowestHumidityInManyFiles();
+		
+		
+	}
 }
